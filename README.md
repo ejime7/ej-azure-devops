@@ -39,7 +39,7 @@ Azure Devops Repo
  
 ```
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+* Passing tests results after running the `make all` command from the `Makefile`
 
 * Output of a test run
 

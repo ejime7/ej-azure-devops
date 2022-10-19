@@ -23,7 +23,7 @@ Azure Devops Repo
 
 
 
-* Project cloned into Azure Cloud Shell using SSH Keys
+** Project cloned into Azure Cloud Shell using SSH Keys
 *(In order to clone the repository into the Cloud Shell , Please follow the steps below;)*
  
  >First, we need an ssh key

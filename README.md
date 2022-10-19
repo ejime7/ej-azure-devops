@@ -27,8 +27,9 @@ Azure Devops Repo
  In order to clone the repository into the Cloud Shell , Please follow the steps below;
  
  >First, we need an ssh key
- >Open the Azure Cloud Shell Terminal and then follow the commands below,
  ```
+ Open the Azure Cloud Shell Terminal and then follow the commands below,
+ 
  ssh-keygen -t rsa
  cat /home/user/.ssh/id_rsa.pub
  ```

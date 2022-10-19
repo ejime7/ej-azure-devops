@@ -30,7 +30,7 @@ Azure Devops Repo
  ```
  ssh-keygen -t rsa
  cat /home/user/.ssh/id_rsa.pub
- 
+ ```
  >Copy that ssh key into your Github account ( Settings, SSH and GPG Keys, New SSH Key )
   Add a Tittle
   Key Type ( Authentication Key )

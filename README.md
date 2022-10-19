@@ -24,6 +24,9 @@ Azure Devops Repo
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
+ In order to clone the repository into the Cloud Shell , Please follow the steps below;
+ 
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 

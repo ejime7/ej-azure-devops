@@ -6,7 +6,8 @@ Azure Devops Repo
 
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project I will we demostrate how to use Continues Integration and Continuous Delivery together to automate Web Applications Deployments using Azure CloudShell,
+Github Actions, Azure Pipelines, and Azure Web App Services, and the final product will be our Flask Web Application. Next, you will information, instruction and guidance on how to performed this task in the future. 
 
 ## Project Plan
 

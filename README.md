@@ -28,15 +28,11 @@ Azure Devops Repo
  In order to clone the repository into the Cloud Shell , Please follow the steps below;
  
  ```
- 
     git clone git@github.com:ejime7/ej-azure-devops.git
     cd ej-azure-devops
     python3 -m venv ~/.myenv
     source ~/.myenv/bin/activate
     make install
-   
- 
- 
 ```
 
 * Passing tests results after running the `make all` command from the `Makefile`

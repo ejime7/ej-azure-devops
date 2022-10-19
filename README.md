@@ -49,6 +49,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 ```
 
 ## Passing tests results after running the `make all` command from the `Makefile`
+>First we need to create a MakeFile before run the make all command. Please follow the steps below,
 
 ## Output of a test run
 

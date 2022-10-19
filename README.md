@@ -49,7 +49,17 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 ```
 
 ## Passing tests results after running the `make all` command from the `Makefile`
->First we need to create a MakeFile before run the make all command. Please follow the steps below,
+>First we need to create a file a named *MakeFile* and add these commands to the file and save it.
+```
+install:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
+lint:
+	pylint --disable=R,C hello.py
+test:
+	python -m pytest -vv test_hello.py
+all: install    lint    test
+```
 
 ## Output of a test run
 

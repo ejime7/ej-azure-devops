@@ -27,6 +27,8 @@ Azure Devops Repo
 * Project cloned into Azure Cloud Shell
  In order to clone the repository into the Cloud Shell , Please follow the steps below;
  
+ ```
+ 
     git clone git@github.com:ejime7/ej-azure-devops.git
  
  

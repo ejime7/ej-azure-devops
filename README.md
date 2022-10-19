@@ -26,6 +26,15 @@ Azure Devops Repo
 * Project cloned into Azure Cloud Shell
  In order to clone the repository into the Cloud Shell , Please follow the steps below;
  
+ >First, we need an ssh key
+ ```
+ ssh-keygen -t rsa
+ cat /home/user/.ssh/id_rsa.pub
+ 
+ >Copy that ssh key into your Github account ( Settings,
+
+ 
+ 
  ```
     git clone git@github.com:ejime7/ej-azure-devops.git
     cd ej-azure-devops

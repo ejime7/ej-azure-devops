@@ -12,7 +12,7 @@ Azure Devops Repo
 <TODO: Project Plan
 
 * Here's the link for the Trello board of the project
- board https://trello.com/invite/b/3LQzmHqV/ATTI76718bf0486d5d2a7e362c2b06f59b1c6ACDB8FC/azuredevops-cloud-engineer-board
+ https://trello.com/invite/b/3LQzmHqV/ATTI76718bf0486d5d2a7e362c2b06f59b1c6ACDB8FC/azuredevops-cloud-engineer-board
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions

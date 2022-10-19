@@ -22,6 +22,9 @@ Azure Devops Repo
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
+```
+az webapp up --name ej-flaskwebapp --resource-group EJ-Devops --runtime "PYTHON:3.9"
+```
 
 * Project cloned into Azure Cloud Shell
  In order to clone the repository into the Cloud Shell , Please follow the steps below;

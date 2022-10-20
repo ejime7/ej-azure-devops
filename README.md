@@ -66,6 +66,8 @@ all: install    lint    test
 
 ## Output of a test run
 
+![](Images/clone_repo_ssh_new.png)
+
 ## Project running on Azure App Service
 ```
 az webapp up --name ej-flaskwebapp --resource-group EJ-Devops --runtime "PYTHON:3.9"

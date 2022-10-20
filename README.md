@@ -46,6 +46,8 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
     python3 -m venv ~/.myenv
     source ~/.myenv/bin/activate
     make install
+    
+    https://github.com/ejime7/ej-azure-devops/commit/a469abfd47dfce65409afa8bd830f2788e0d7c20#diff-f7976842d2a2e10660a3c7d29927eb312ee24c720fa053c3c037afd618c87186
 ```
 
 ## Passing tests results after running the `make all` command from the `Makefile`

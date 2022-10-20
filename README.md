@@ -45,7 +45,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
     source ~/.myenv/bin/activate
     make install
  ```   
-    ![Images/clone_repo_ssh_new.png]
+    ![Images/clone_repo_ssh_new.png.md]
    
 
 ## Passing tests results after running the `make all` command from the `Makefile`

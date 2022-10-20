@@ -66,7 +66,7 @@ all: install    lint    test
 
 ## Output of a test run
 
-![](Images/clone_repo_ssh_new.png)
+![](Images/gitbhubactions.png)
 
 ## Project running on Azure App Service
 ```

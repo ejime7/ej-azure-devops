@@ -38,8 +38,6 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
   * Key Type ( Authentication Key )
   * Key ( will be the one that you copy from the Azure Cloud Shell using the cat command )
 
- 
- 
  ```
     git clone git@github.com:ejime7/ej-azure-devops.git
     cd ej-azure-devops
@@ -47,7 +45,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
     source ~/.myenv/bin/activate
     make install
  ```   
-    ![](Images/clone&20repo%20via%20ssh_new.png)
+    ![](Images/clone_repo_ssh_new.png)
    
 
 ## Passing tests results after running the `make all` command from the `Makefile`

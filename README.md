@@ -60,6 +60,7 @@ test:
 	python -m pytest -vv test_hello.py
 all: install    lint    test
 ```
+![](Images/make_all.png)
 
 ## Output of a test run
 

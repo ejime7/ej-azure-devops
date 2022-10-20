@@ -46,9 +46,9 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
     python3 -m venv ~/.myenv
     source ~/.myenv/bin/activate
     make install
-    
-    ![](images/clone repo via ssh_new.png)
-```
+ ```   
+    ![](Images/clone repo via ssh_new.png)
+   
 
 ## Passing tests results after running the `make all` command from the `Makefile`
 >First we need to create a file a named *MakeFile* and add these commands to the file and save it.

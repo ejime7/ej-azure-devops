@@ -33,6 +33,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
  ssh-keygen -t rsa
  cat /home/user/.ssh/id_rsa.pub
  ```
+ ![](Images/cat_ssh.png)
  >Copy that ssh key into your Github account (go to  **Settings, SSH and GPG Keys, New SSH Key** )
   * Add a Tittle
   * Key Type ( Authentication Key )

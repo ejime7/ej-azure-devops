@@ -67,8 +67,8 @@ test:
 	python -m pytest -vv test_hello.py
 all: install    lint    test
 ```   
-* Example of how to save the file 
-![](Makefile_AzureCloud.png)
+* Example: How to save the file using the Azure Cloud Shell
+![](Images/Makefile_AzureCloud.png)
 ```
 python3 -m venv ~/.myenv
 source ~/.myenv/bin/activate

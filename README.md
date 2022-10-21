@@ -69,6 +69,12 @@ all: install    lint    test
 ```   
 * Example: How to save the file using the Azure Cloud Shell
 ![](Images/Makefile_AzureCloud.png)
+* Create a requirements.txt file and the following items below.
+```
+pylint
+pytest
+```
+* Create the Python Virtual Environment for our application, and Test the application using Make all command.
 ```
 python3 -m venv ~/.myenv
 source ~/.myenv/bin/activate

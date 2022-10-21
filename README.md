@@ -89,7 +89,7 @@ make all
 ![](Images/githubactions_workflow.png)
 > This workflow will be triggered and will use the .yml file created to test your application in our Remote. This will ensure that the 
 applications passed all the test needed to be deploy into Azure.
-> Results
+* Results / Passed
 ![](Images/githubactions.png)
 
 ## Project running on Azure App Service

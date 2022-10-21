@@ -96,7 +96,10 @@ applications passed all the test needed to be deploy into Azure.
 # CD
 ## Project running on Azure App Service
 Since we finished with the CI part, now we are going to integrate the Continuos Delivery using the same repo, but you will need to add some additional files that are listed in this repo in order to be able to create an push our applicatin via the azure cloud shell.
-
+Type the following command to pull the latest changes from your github repo.
+```
+(.myenv) emanuel [ ~/ej-azure-devops ]$ git pull
+```
 Notes: Make sure that you are in this location in the azure cloud shell, and run make install
 Example:
 ```

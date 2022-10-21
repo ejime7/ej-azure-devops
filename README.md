@@ -41,6 +41,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
   
  ![](Images/git_ssh_keys.png)
   
+  * Now, Open the Azure Cloud Shell Terminal, and type the following;
  ```
     git clone git@github.com:ejime7/ej-azure-devops.git
     cd ej-azure-devops

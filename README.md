@@ -83,6 +83,9 @@ make all
 ![](Images/make_all.png)
 
 ## Output of a test run
+> First go to Actions, Setup a Workflow for yourself and create a .yml file.
+* Example:
+![](Images/githubactions_workflow.png)
 
 ![](Images/githubactions.png)
 

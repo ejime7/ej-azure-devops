@@ -83,10 +83,13 @@ make all
 ![](Images/make_all.png)
 
 ## Output of a test run
-> First go to Actions, Setup a Workflow for yourself and create a .yml file.
+> First, we need to enable githubaction. Go to Actions, Setup a Workflow for yourself, and create a .yml file.
 * Example:
-![](Images/githubactions_workflow.png)
 
+![](Images/githubactions_workflow.png)
+> This workflow will be triggered and will use the .yml file created to test your application in our Remote. This will ensure that the 
+applications passed all the test needed to be deploy into Azure.
+> Results
 ![](Images/githubactions.png)
 
 ## Project running on Azure App Service

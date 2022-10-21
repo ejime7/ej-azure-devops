@@ -56,6 +56,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 ```
 touch Makefile
 ```
+* Add the commands below into the Makefile and save it.
 ```
 install:
 	pip install --upgrade pip &&\
@@ -66,6 +67,8 @@ test:
 	python -m pytest -vv test_hello.py
 all: install    lint    test
 ```   
+* Example of how to save the file 
+![](Makefile_AzureCloud.png)
 ```
 python3 -m venv ~/.myenv
 source ~/.myenv/bin/activate

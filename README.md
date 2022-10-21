@@ -38,7 +38,9 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
   * Add a Tittle
   * Key Type ( Authentication Key )
   * Key ( will be the one that you copy from the Azure Cloud Shell using the cat command )
-
+  
+ ![](Images/git_ssh_keys.png)
+  
  ```
     git clone git@github.com:ejime7/ej-azure-devops.git
     cd ej-azure-devops

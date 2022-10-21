@@ -82,7 +82,7 @@ make all
 ```    
 ![](Images/make_all.png)
 
-## Output of a test run
+## Output of a test run using Github Actions
 > First, we need to enable githubaction. Go to Actions, Setup a Workflow for yourself, and create a .yml file.
 * Example:
 

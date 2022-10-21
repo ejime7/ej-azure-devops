@@ -45,15 +45,17 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
  ```
     git clone git@github.com:ejime7/ej-azure-devops.git
     cd ej-azure-devops
-    python3 -m venv ~/.myenv
-    source ~/.myenv/bin/activate
-    make install
+
  ```   
    ![](Images/clone_repo_ssh_new.png)
    
 
 ## Passing tests results after running the `make all` command from the `Makefile`
->First we need to create a file a named *MakeFile* and add these commands to the file and save it.
+>First, create a file a named *MakeFile*,
+* Open the Azure Cloud Shell Terminal and type the touch cmd to create a Makefile.
+```
+touch Makefile
+```
 ```
 install:
 	pip install --upgrade pip &&\
@@ -63,7 +65,12 @@ lint:
 test:
 	python -m pytest -vv test_hello.py
 all: install    lint    test
+```   
 ```
+python3 -m venv ~/.myenv
+source ~/.myenv/bin/activate
+make install
+```    
 ![](Images/make_all.png)
 
 ## Output of a test run

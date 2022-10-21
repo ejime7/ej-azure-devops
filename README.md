@@ -43,8 +43,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
   
   * Now, Open the Azure Cloud Shell Terminal, and type the following;
  ```
-    git clone git@github.com:ejime7/ej-azure-devops.git
-    cd ej-azure-devops
+ git clone git@github.com:ejime7/ej-azure-devops.git
 
  ```   
    ![](Images/clone_repo_ssh_new.png)
@@ -54,6 +53,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 >First, create a file a named *MakeFile*,
 * Open the Azure Cloud Shell Terminal and type the touch cmd to create a Makefile.
 ```
+cd ej-azure-devops
 touch Makefile
 ```
 * Add the commands below into the Makefile and save it.

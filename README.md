@@ -25,7 +25,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
  ![](Images/Create_Repository.png)
  
  
- >First, we need an ssh key
+ >Then, you need to create an ssh key
  ```
  Open the Azure Cloud Shell Terminal and then follow the commands below,
  

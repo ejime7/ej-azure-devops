@@ -72,7 +72,7 @@ all: install    lint    test
 ```
 python3 -m venv ~/.myenv
 source ~/.myenv/bin/activate
-make install
+make all
 ```    
 ![](Images/make_all.png)
 

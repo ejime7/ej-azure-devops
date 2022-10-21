@@ -100,6 +100,11 @@ Type the following command to pull the latest changes from your github repo.
 ```
 (.myenv) emanuel [ ~/ej-azure-devops ]$ git pull
 ```
+Now, let assign executable permission to the following files " make_predict_azure_app.sh ", "make_prediction.sh"
+```
+(.myenv) emanuel [ ~/ej-azure-devops ]$ chmod +x make_prediction.sh
+(.myenv) emanuel [ ~/ej-azure-devops ]$ chmod +x make_predict_azure_app.sh
+```
 Notes: Make sure that you are in this location in the azure cloud shell, and run make install
 Example:
 ```
@@ -107,7 +112,7 @@ Example:
 ```
 
 ```
-az webapp up --name ej-flaskwebapp --resource-group EJ-Devops --runtime "PYTHON:3.9"
+az webapp up --name ej-cicdwebapp --resource-group EJ-Devops
 ```
 
 ## Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).

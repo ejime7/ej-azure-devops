@@ -76,7 +76,7 @@ az webapp up --name ej-flaskwebapp --resource-group EJ-Devops --runtime "PYTHON:
 The output should look similar to this:
 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
+(.myenv) emanuel [ ~/ej-azure-devops ]$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}
 ```

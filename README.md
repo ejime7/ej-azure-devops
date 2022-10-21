@@ -21,10 +21,10 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 ## Project cloned into Azure Cloud Shell using SSH Keys
 *(In order to clone the repository into the Cloud Shell , Please follow the steps below;)*
  >First you need to create a github repository.
- ```
+
  ![](Images/Create_Repository.png)
  
- ```
+ 
  >First, we need an ssh key
  ```
  Open the Azure Cloud Shell Terminal and then follow the commands below,

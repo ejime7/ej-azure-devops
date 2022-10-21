@@ -18,6 +18,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 ## Instructions
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
+# CI
 ## Project cloned into Azure Cloud Shell using SSH Keys
 *(In order to clone the repository into the Cloud Shell , Please follow the steps below;)*
  >First you need to create a github repository.
@@ -92,7 +93,16 @@ applications passed all the test needed to be deploy into Azure.
 * Results / Passed
 ![](Images/githubactions.png)
 
+# CD
 ## Project running on Azure App Service
+Since we finished with the CI part, now we are going to integrate the Continuos Delivery using the same repo, but you will need to add some additional files that are listed in this repo in order to be able to create an push our applicatin via the azure cloud shell.
+
+Notes: Make sure that you are in this location in the azure cloud shell, and run make install
+Example:
+```
+(.myenv) emanuel [ ~/ej-azure-devops ]$ make install
+```
+
 ```
 az webapp up --name ej-flaskwebapp --resource-group EJ-Devops --runtime "PYTHON:3.9"
 ```

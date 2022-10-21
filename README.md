@@ -112,7 +112,7 @@ Example:
 ```
 
 ```
-az webapp up --name ej-cicdwebapp --resource-group EJ-Devops --runtime "PYTHON:3.9"
+(.myenv) emanuel [ ~/ej-azure-devops ]$ az webapp up --name ej-cicdwebapp --resource-group EJ-Devops --runtime "PYTHON:3.9"
 ```
 
 ## Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).

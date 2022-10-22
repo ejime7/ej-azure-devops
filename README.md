@@ -140,8 +140,10 @@ Example:
      * Create a new pipeline
      * Select your Github Repository
      * Select Python to Linux WebApp on Azure
+     * Select an Azure subscription
      * Confirm the creation of a new .yml file in your repository
-     
+     * Pick your WebApp Name
+     * Review your Pipeline .yml file , and click save and run.
 
 ## Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:

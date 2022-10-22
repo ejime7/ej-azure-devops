@@ -13,7 +13,8 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 
 * Here's the link for the Trello board of the project
  https://trello.com/invite/b/3LQzmHqV/ATTI76718bf0486d5d2a7e362c2b06f59b1c6ACDB8FC/azuredevops-cloud-engineer-board
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a spreadsheet that includes the original and final project plan
+ https://github.com/ejime7/ej-azure-devops/blob/main/Yearly_Quarterly_Schedule_Planning.xlsx
 
 ## Instructions
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:

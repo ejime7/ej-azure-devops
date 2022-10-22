@@ -132,7 +132,7 @@ Example:
 ![](Images/cicdapp_webpage.png)
 
 Results:
-```bash
+```
 (.myenv) emanuel [ ~/ej-azure-devops ]$ ./make_predict_azure_app.sh
 Port: 443
 {"prediction":[20.35373177134412]}

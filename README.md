@@ -22,8 +22,15 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 ## Project cloned into Azure Cloud Shell using SSH Keys
 *(In order to clone the repository into the Cloud Shell , Please follow the steps below;)*
  >First you need to create a github repository.
+ * Create a new repository
+ 	* Add a repository name
+ 	* Private Repository
+ 	* Add a README file
+ 	* Add .gitignore template Python
+ 	* License None
+ 	* Grant your Marketplace apps access to this repository : Azure Pipelines
+ 	* Create Repository
 
- ![](Images/Create_Repository.png)
  
  
  >Then, you need to create an ssh key

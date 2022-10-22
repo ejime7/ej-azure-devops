@@ -115,6 +115,8 @@ Now, let assign executable permission to the following files " make_predict_azur
 ![](Images/chmod.png)
 ![](Images/chmod_green.png)
 
+
+
 Notes: Make sure that you are in this location in the azure cloud shell, and run make install
 Example:
 ```
@@ -129,6 +131,13 @@ Example:
 ![](Images/cicdapp_web.png)
 ![](Images/cicdapp_webpage.png)
 
+Results:
+```bash
+(.myenv) emanuel [ ~/ej-azure-devops ]$ ./make_predict_azure_app.sh
+Port: 443
+{"prediction":[20.35373177134412]}
+```
+
 ## Successful deploy of the project in Azure Pipelines. 
 * Here are the steps to create a project
      * Go to https://dev.azure.com/  
@@ -140,6 +149,10 @@ Example:
      * Service Connections
      * Create a service connection
      * Select Azure Resource Manager / Authentication Method : Service Principal Automatic
+* Results
+
+![](Images/service_conn.png)
+![](Images/service_con1.png)
   
 
 ## Running Azure App Service from Azure Pipelines automatic deployment
@@ -151,15 +164,8 @@ Example:
      * Confirm the creation of a new .yml file in your repository
      * Pick your WebApp Name
      * Review your Pipeline .yml file , and click save and run.
+* Results
 
-## Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-(.myenv) emanuel [ ~/ej-azure-devops ]$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
 
 * Output of streamed log files from deployed application
 

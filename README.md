@@ -167,10 +167,12 @@ Port: 443
 
 ![](Images/Pipeline_result.png)
 
-* Output of streamed log files from deployed application
-
 * Output result of a Load Test using Locust.
 ![](Images/locust.png)
+
+* Output of streamed log files from the deployed application
+> Results :
+https://github.com/ejime7/ej-azure-devops/blob/main/2022_10_22_pl1sdlwk0005NM_default_docker.log
 
 ## Enhancements
 

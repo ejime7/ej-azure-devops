@@ -105,6 +105,9 @@ Now, let assign executable permission to the following files " make_predict_azur
 (.myenv) emanuel [ ~/ej-azure-devops ]$ chmod +x make_prediction.sh
 (.myenv) emanuel [ ~/ej-azure-devops ]$ chmod +x make_predict_azure_app.sh
 ```
+![](Images/chmod.png)
+![](Images/chmod_green.png)
+
 Notes: Make sure that you are in this location in the azure cloud shell, and run make install
 Example:
 ```
@@ -112,8 +115,12 @@ Example:
 ```
 
 ```
-(.myenv) emanuel [ ~/ej-azure-devops ]$ az webapp up --name ej-cicdwebapp --resource-group EJ-Devops --runtime "PYTHON:3.9"
+(.myenv) emanuel [ ~/ej-azure-devops ]$ az webapp up --name ej-cicdapp --resource-group EJ-Devops
 ```
+* After complete the previous command, these are the results.
+>Example
+![](Images/cicdapp_web.png)
+![](Images/cicdapp_webpage.png)
 
 ## Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 

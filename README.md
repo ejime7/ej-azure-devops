@@ -154,7 +154,6 @@ Port: 443
 ![](Images/service_conn.png)
 ![](Images/service_con1.png)
   
-
 ## Running Azure App Service from Azure Pipelines automatic deployment
 * Go to Pipelines in the new project
      * Create a new pipeline
@@ -166,6 +165,7 @@ Port: 443
      * Review your Pipeline .yml file , and click save and run.
 * Results
 
+![](Images/Pipeline_result.png)
 
 * Output of streamed log files from deployed application
 

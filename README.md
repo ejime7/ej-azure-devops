@@ -18,7 +18,7 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
 ## Instructions
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
-# CI
+## Continuous Integration
 ## Project cloned into Azure Cloud Shell using SSH Keys
 *(In order to clone the repository into the Cloud Shell , Please follow the steps below;)*
  >First you need to create a github repository.
@@ -93,7 +93,7 @@ applications passed all the test needed to be deploy into Azure.
 * Results / Passed
 ![](Images/githubactions.png)
 
-# CD
+## Continuous Delivery
 ## Project running on Azure App Service
 Since we finished with the CI part, now we are going to integrate the Continuos Delivery using the same repo, but you will need to add some additional files that are listed in this repo in order to be able to create an push our applicatin via the azure cloud shell.
 Type the following command to pull the latest changes from your github repo.
@@ -122,9 +122,26 @@ Example:
 ![](Images/cicdapp_web.png)
 ![](Images/cicdapp_webpage.png)
 
-## Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+## Successful deploy of the project in Azure Pipelines. 
+* Here are the steps to create a project
+     * Go to https://dev.azure.com/  
+     * Create a new project with the following options.
+     * Private Project
+     * Advance Options Version Control ( Git, Basic )
+* Create a new service connection
+     * Go to Project Settings
+     * Service Connections
+     * Create a service connection
+     * Select Azure Resource Manager / Authentication Method : Service Principal Automatic
+  
 
 ## Running Azure App Service from Azure Pipelines automatic deployment
+* Go to Pipelines in the new project
+     * Create a new pipeline
+     * Select your Github Repository
+     * Select Python to Linux WebApp on Azure
+     * Confirm the creation of a new .yml file in your repository
+     
 
 ## Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:

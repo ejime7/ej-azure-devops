@@ -169,7 +169,8 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-> 
+* Output result of a Load Test using Locust.
+![](Images/locust.png)
 
 ## Enhancements
 

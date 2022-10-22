@@ -17,7 +17,6 @@ Github Actions, Azure Pipelines, and Azure Web App Services, and the final produ
  https://github.com/ejime7/ej-azure-devops/blob/main/Yearly_Quarterly_Schedule_Planning.xlsx
 
 ## Instructions
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 ## Continuous Integration
 ## Project cloned into Azure Cloud Shell using SSH Keys

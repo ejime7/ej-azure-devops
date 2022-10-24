@@ -131,7 +131,10 @@ Example:
 ![](Images/cicdapp_web.png)
 ![](Images/cicdapp_webpage.png)
 
-Results:
+To run the prediction that returns back a JSON payload ,  update the following line in the make_predict_azure_app.sh: 
+* -X POST https://ej-cicdapp.azurewebsites.net:$PORT/predict
+* Run the prediction script - ./make_predict_azure_app.sh
+> Results:
 ```
 (.myenv) emanuel [ ~/ej-azure-devops ]$ ./make_predict_azure_app.sh
 Port: 443

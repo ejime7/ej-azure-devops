@@ -179,7 +179,6 @@ https://github.com/ejime7/ej-azure-devops/blob/main/2022_10_22_pl1sdlwk0005NM_de
 For future Enhancements , I will recommeded you to update the modules and python packages. This will keep your Flask application up to date and secure.  
 
 ## Demo 
-
-Youtube Video: https://youtu.be/7mOvUNN0jkE
-Available in 1080p 60fps
+## Youtube Video: https://youtu.be/7mOvUNN0jkE
+* Available in 1080p 60fps
 

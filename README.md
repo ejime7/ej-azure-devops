@@ -7,7 +7,7 @@ Azure Devops Repo
 # Overview
 
 In this project I will we demostrate how to use Continues Integration and Continuous Delivery together to automate Web Applications Deployments using Azure CloudShell,
-Github Actions, Azure Pipelines, and Azure Web App Services, and the final product will be our Flask Web Application. Next, you will find information, instruction and guidance on how to performed this task in the future. 
+Github Actions, Azure Pipelines, and Azure Web App Services, and the final product will be our Python Web Application being deploy by our CICD Pipeline. Next, you will find information, instruction and guidance on how to performed this task in the future. 
 
 ## Project Plan
 
@@ -179,7 +179,7 @@ https://github.com/ejime7/ej-azure-devops/blob/main/2022_10_22_pl1sdlwk0005NM_de
 
 ## Enhancements
 
-For future Enhancements , I will recommeded you to update the modules and python packages. This will keep your Flask application up to date and secure.  
+For future Enhancements , I will recommeded you to update the modules and python packages. This will keep your Python application up to date and secure.  
 
 ## Demo 
 ## Youtube Video: https://youtu.be/7mOvUNN0jkE
